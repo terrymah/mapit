@@ -1,25 +1,32 @@
 {
-  "title": "North Carolina",
+  "title": "Jefferson Griffin's Attack on Democracy",
   "geojson_file": "ncsimple.json",
   "background_map": false,
   "scrollable": false,
   "background_color": "#ffffff",
   "hover_effect": true,
-  "quiz": true,
+  "quiz": false,
   "key": "County",
   "features": [
     {
       "County": "Wake",
-      "color": "#ff0000"
+      "color": "#ff0000",
+      "url": "https://www.google.com/maps/d/edit?mid=1dWrCOZ-606XS5h7hjeHlp-x7o6Du2S4&usp=sharing"
     },
     {
-      "County": "feature2",
-      "color": "#00ff00",
-      "url": "feature2.html"
+      "County": "Mecklenburg",
+      "color": "#ff0000",
+      "url": "https://www.google.com/maps/d/edit?mid=1fa4Nwl4OqY434wZeT0a2y2FuaGbBBaI&usp=sharing"
     },
     {
-      "County": "feature3",
-      "color": "#0000ff"
-    }
+      "County": "Durham",
+      "color": "#ff0000",
+      "url": "https://www.google.com/maps/d/edit?mid=1OLn-NrzywGV64sOqaYTGmUVFyTnPSys&usp=sharing"
+    },
+    {
+      "County": "Forsyth",
+      "color": "#ff0000",
+      "url": "https://www.google.com/maps/d/edit?mid=1HqrT_AfgwK3laMv5Ysv8MR9m_WTABFw&usp=sharing"
+    }    
   ]
 }
