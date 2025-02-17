@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /* Prevent scrollbars */
+  }
+  
+  /* Title container */
+  #title {
+    text-align: center;
+    font-size: 72px;
+    padding: 10px;
+  }
+  
+  /* Quiz prompt appears below the title */
+  #quizPrompt {
+    text-align: center;
+    font-size: 48px;
+    padding: 10px;
+  }
+  
+  /* The map fills the remaining window area (adjusted for title and prompt) */
+  #map {
+    height: calc(100% - 160px);
+  }
+  
+  /* All GeoJSON vector layers get this CSS:
+     they “pop” (scale up 10%) on hover using their own bounding box as reference. */
+  .leaflet-interactive {
+    transition: transform 0.2s ease;
+    transform-box: fill-box;
+    transform-origin: center;
+  }
+  
+  .leaflet-interactive:hover {
+    transform: scale(1.1);
+  }
+
+  .floating-logo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 200px;
+    height: auto;
+    z-index: 1000;
+}
+
+.floating-logo-link {
+    text-decoration: none;
+}
+  
