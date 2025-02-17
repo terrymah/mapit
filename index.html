@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>GeoJSON Quiz App</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden; /* Prevent scrollbars */
+      }
+      /* Title container */
+      #title {
+        text-align: center;
+        font-size: 72px;
+        padding: 10px;
+      }
+      /* Quiz prompt appears below the title */
+      #quizPrompt {
+        text-align: center;
+        font-size: 48px;
+        padding: 10px;
+      }
+      /* The map fills the remaining window area (adjusted for title and prompt) */
+      #map {
+        height: calc(100% - 160px);
+      }
+      /* All GeoJSON vector layers get this CSS:
+         they “pop” (scale up 10%) on hover using their own bounding box as reference. */
+      .leaflet-interactive {
+        transition: transform 0.2s ease;
+        transform-box: fill-box;
+        transform-origin: center;
+      }
+      .leaflet-interactive:hover {
+        transform: scale(1.1);
+      }
+    </style>
+    <!-- Specify the config file to use -->
+    <script>
+      // Change this value as needed to load a different config file.
+      window.configFile = "config.json";
+    </script>
+  </head>
+  <body>
+    <div id="title"></div>
+    <div id="quizPrompt"></div>
+    <div id="map"></div>
+
+    <!-- Leaflet library -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <!-- Common application code -->
+    <script src="app.js"></script>
+    <!-- Quiz-specific logic -->
+    <script src="quiz.js"></script>
+  </body>
+</html>

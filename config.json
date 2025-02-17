@@ -1,0 +1,25 @@
+{
+  "title": "North Carolina",
+  "geojson_file": "ncsimple.json",
+  "background_map": false,
+  "scrollable": false,
+  "background_color": "#ffffff",
+  "hover_effect": true,
+  "quiz": true,
+  "key": "County",
+  "features": [
+    {
+      "County": "Wake",
+      "color": "#ff0000"
+    },
+    {
+      "County": "feature2",
+      "color": "#00ff00",
+      "url": "feature2.html"
+    },
+    {
+      "County": "feature3",
+      "color": "#0000ff"
+    }
+  ]
+}
