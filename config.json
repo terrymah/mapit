@@ -27,6 +27,46 @@
       "County": "Forsyth",
       "color": "#ff0000",
       "url": "https://www.google.com/maps/d/edit?mid=1HqrT_AfgwK3laMv5Ysv8MR9m_WTABFw&usp=sharing"
-    }    
+    },
+    {
+      "County": "Guilford",
+      "color": "#ff0000",
+      "url": "https://www.google.com/maps/d/edit?mid=1p4k_ZVoFT-Jg6-mTjZIvh1kDcBECdEM&usp=sharing"
+    },
+    {
+      "County": "Cumberland",
+      "color": "#ff0000",
+      "url": "https://www.google.com/maps/d/edit?mid=1HJYPR_nt73X8R7AUSfiD1UVIArPn22I&usp=sharing"
+    },
+    {
+      "County": "New Hanover",
+      "color": "#ff0000",
+      "url": "https://www.google.com/maps/d/edit?mid=1pfgxnyCeUsjakFO63AqJ8YQinEw2jA8&usp=sharing"
+    },
+    {
+      "County": "Orange",
+      "color": "#ff0000",
+      "url": "https://www.google.com/maps/d/edit?mid=1vbZTbNXYlIhuaQSRlJVSY_Y2BNoAZto&usp=sharing"
+    },
+    {
+      "County": "Buncombe",
+      "color": "#ff0000",
+      "url": "https://www.google.com/maps/d/edit?mid=170N-l_tgOQjfGF9Fe6OeIgWmO1e-DzQ&usp=sharing"
+    },
+    {
+      "County": "Union",
+      "color": "#ff0000",
+      "url": "https://www.google.com/maps/d/edit?mid=1prBjN56J62FHC6EtqZ0CraOZrNgfh2w&usp=sharing"
+    },
+    {
+      "County": "Brunswick",
+      "color": "#ff0000",
+      "url": "https://www.google.com/maps/d/edit?mid=1AOJ01l4FTBOpRFSsW1aCKLyTe8TS4Tc&usp=sharing"
+    },
+    {
+      "County": "Johnston",
+      "color": "#ff0000",
+      "url": "https://www.google.com/maps/d/edit?mid=1YHRyvki3S2josvHao_mMhVJ4LRhnWBo&usp=sharing"
+    }            
   ]
 }
